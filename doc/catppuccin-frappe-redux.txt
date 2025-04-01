@@ -56,24 +56,24 @@ INSTALLATION                                     *catppuccin-frappe-redux-instal
 Note: For better syntax highlighting support, consider installing one of the
 following plugins additionally to this colorscheme:
 
-	https://github.com/sheerun/vim-polyglot
-	https://github.com/nvim-treesitter/nvim-treesitter.
+	https://gitlab.com/sheerun/vim-polyglot
+	https://gitlab.com/nvim-treesitter/nvim-treesitter.
 
 ------------------------------------------------------------------------------
 Via a Plugin Manager
 
 VIM-PLUG
 >
-    Plug 'sainnhe/catppuccin-frappe-redux'
+    Plug 'jjlabs/catppuccin-frappe-redux'
 <
-Refer to https://github.com/junegunn/vim-plug for further information.
+Refer to https://gitlab.com/junegunn/vim-plug for further information.
 
 LAZY.NVIM
 
 In Neovim (Lua configuration):
 >
     {
-      'sainnhe/catppuccin-frappe-redux',
+      'jjlabs/catppuccin-frappe-redux',
       lazy = false,
       priority = 1000,
       config = function()
@@ -84,7 +84,7 @@ In Neovim (Lua configuration):
       end
     }
 <
-Refer to https://github.com/folke/lazy.nvim for further information.
+Refer to https://gitlab.com/folke/lazy.nvim for further information.
 
 ------------------------------------------------------------------------------
 As a Native Vim Package
@@ -93,7 +93,7 @@ Users of Vim 8 and greater may leverage Vim's native |packages| system.
 
 1. Create a new directory: `$ mkdir -p ~/.vim/pack/colors/opt`
 
-2. Clone this repository: `$ git clone --depth 1 https://github.com/sainnhe/catppuccin-frappe-redux.git ~/.vim/pack/colors/opt/catppuccin-frappe-redux`
+2. Clone this repository: `$ git clone --depth 1 https://gitlab.com/jjlabs/catppuccin-frappe-redux.git ~/.vim/pack/colors/opt/catppuccin-frappe-redux`
 
 3. Generate help tags: `:helptags ~/.vim/pack/colors/opt/catppuccin-frappe-redux/doc/`
 
@@ -102,14 +102,14 @@ Users of Vim 8 and greater may leverage Vim's native |packages| system.
 Note: If you install this color scheme to `pack/*/start` instead of
 `pack/*/opt`, you still need to add `packadd! catppuccin-frappe-redux` to your vimrc,
 as discussed in the following issue:
-https://github.com/sainnhe/catppuccin-frappe-redux/issues/60
+https://gitlab.com/jjlabs/catppuccin-frappe-redux/issues/60
 
 ------------------------------------------------------------------------------
 Manually
 
 Users of Vim 7 and lower may install the colorscheme manually.
 
-1. Clone the repository: `git clone --depth 1 https://github.com/sainnhe/catppuccin-frappe-redux.git`
+1. Clone the repository: `git clone --depth 1 https://gitlab.com/jjlabs/catppuccin-frappe-redux.git`
 
 2. Copy `catppuccin-frappe-redux/autoload/catppuccin_frappe_redux.vim` to `~/.vim/autoload/`.
 
@@ -121,17 +121,17 @@ Users of Vim 7 and lower may install the colorscheme manually.
 5. To install the airline theme, copy
    `catppuccin-frappe-redux/autoload/airline/themes/catppuccin_frappe_redux.vim`
    to `~/.vim/autoload/airline/themes/`.
-   https://github.com/vim-airline/vim-airline
+   https://gitlab.com/vim-airline/vim-airline
 
 6. To install the lightline theme,
    copy `catppuccin-frappe-redux/autoload/lightline/colorscheme/catppuccin_frappe_redux.vim`
    to `~/.vim/autoload/lightline/colorscheme/`.
-   https://github.com/itchyny/lightline.vim
+   https://gitlab.com/itchyny/lightline.vim
 
 7. To install the lualine theme,
    copy `catppuccin-frappe-redux/lua/lualine/themes/catppuccin-frappe-redux.lua`
    to `~/.config/nvim/lua/lualine/themes/`.
-   https://github.com/nvim-lualine/lualine.nvim
+   https://gitlab.com/nvim-lualine/lualine.nvim
 
 ------------------------------------------------------------------------------
 AUR
@@ -182,7 +182,7 @@ Vim~
 
 Airline~
 
-    To enable [airline](https://github.com/vim-airline/vim-airline) color
+    To enable [airline](https://gitlab.com/vim-airline/vim-airline) color
     scheme, put this in your vimrc:
 >
         let g:airline_theme = 'catppuccin_frappe_redux'
@@ -195,7 +195,7 @@ Airline~
 
 Lightline~
 
-    To enable [lightline](https://github.com/itchyny/lightline.vim) color
+    To enable [lightline](https://gitlab.com/itchyny/lightline.vim) color
     scheme, put this in your vimrc:
 >
         let g:lightline = {}
@@ -214,7 +214,7 @@ Lightline~
 
 Lualine~
 
-    To enable [lualine](https://github.com/nvim-lualine/lualine.nvim) color
+    To enable [lualine](https://gitlab.com/nvim-lualine/lualine.nvim) color
     scheme, put this in your init.lua:
 >
         require'lualine'.setup {
@@ -440,12 +440,12 @@ the background of them.
 Currently, the following plugins are supported:
 
 - neovim's built-in language server client
-- https://github.com/neoclide/coc.nvim
-- https://github.com/prabirshrestha/vim-lsp
-- https://github.com/ycm-core/YouCompleteMe
-- https://github.com/dense-analysis/ale
-- https://github.com/neomake/neomake
-- https://github.com/vim-syntastic/syntastic
+- https://gitlab.com/neoclide/coc.nvim
+- https://gitlab.com/prabirshrestha/vim-lsp
+- https://gitlab.com/ycm-core/YouCompleteMe
+- https://gitlab.com/dense-analysis/ale
+- https://gitlab.com/neomake/neomake
+- https://gitlab.com/vim-syntastic/syntastic
 
 ------------------------------------------------------------------------------
                                   *g:catppuccin_frappe_redux_diagnostic_line_highlight*
@@ -461,10 +461,10 @@ set this option to `1`.
 
 Currently, the following plugins are supported:
 
-- https://github.com/neoclide/coc.nvim
-- https://github.com/ycm-core/YouCompleteMe
-- https://github.com/dense-analysis/ale
-- https://github.com/vim-syntastic/syntastic
+- https://gitlab.com/neoclide/coc.nvim
+- https://gitlab.com/ycm-core/YouCompleteMe
+- https://gitlab.com/dense-analysis/ale
+- https://gitlab.com/vim-syntastic/syntastic
 
 ------------------------------------------------------------------------------
                                     *g:catppuccin_frappe_redux_diagnostic_virtual_text*
@@ -481,11 +481,11 @@ way these virtual texts are highlighted.
 Currently, the following plugins are supported:
 
 - Neovim's built-in language server client
-- https://github.com/neoclide/coc.nvim
-- https://github.com/prabirshrestha/vim-lsp
-- https://github.com/dense-analysis/ale
-- https://github.com/neomake/neomake
-- https://github.com/ycm-core/YouCompleteMe
+- https://gitlab.com/neoclide/coc.nvim
+- https://gitlab.com/prabirshrestha/vim-lsp
+- https://gitlab.com/dense-analysis/ale
+- https://gitlab.com/neomake/neomake
+- https://gitlab.com/ycm-core/YouCompleteMe
 
 ------------------------------------------------------------------------------
                                                *g:catppuccin_frappe_redux_current_word*
@@ -502,11 +502,11 @@ option to control their behavior.
 
 Currently, the following plugins are supported:
 
-- https://github.com/neoclide/coc-highlight
-- https://github.com/dominikduda/vim_current_word
-- https://github.com/RRethy/vim-illuminate
-- https://github.com/itchyny/vim-cursorword
-- https://github.com/prabirshrestha/vim-lsp
+- https://gitlab.com/neoclide/coc-highlight
+- https://gitlab.com/dominikduda/vim_current_word
+- https://gitlab.com/RRethy/vim-illuminate
+- https://gitlab.com/itchyny/vim-cursorword
+- https://gitlab.com/prabirshrestha/vim-lsp
 
 ------------------------------------------------------------------------------
                                      *g:catppuccin_frappe_redux_inlay_hints_background*
@@ -523,9 +523,9 @@ the background color of inlay hints.
 Currently, the following LSP clients are supported:
 
 - neovim's built-in language server client
-- https://github.com/neoclide/coc.nvim
-- https://github.com/prabirshrestha/vim-lsp
-- https://github.com/ycm-core/YouCompleteMe
+- https://gitlab.com/neoclide/coc.nvim
+- https://gitlab.com/prabirshrestha/vim-lsp
+- https://gitlab.com/ycm-core/YouCompleteMe
 
 ------------------------------------------------------------------------------
                                     *g:catppuccin_frappe_redux_disable_terminal_colors*
@@ -616,7 +616,7 @@ using [this script](https://unix.stackexchange.com/questions/404414/print-true-c
 
 3. If you are running vim in tmux, you need to override default true colors of
 tmux, as tmux cannot display true colors properly:
-[#1246 How to use true colors in vim under tmux?](https://github.com/tmux/tmux/issues/1246)
+[#1246 How to use true colors in vim under tmux?](https://gitlab.com/tmux/tmux/issues/1246)
 
 ------------------------------------------------------------------------------
 
@@ -629,7 +629,7 @@ You should place them before `colorscheme catppuccin-frappe-redux` .
 A lot of errors are detected if I install with pack feature.~
 
 You'll need to add `packadd! catppuccin-frappe-redux` before applying this color
-scheme. Check [sainnhe/catppuccin-frappe-redux#60](https://github.com/sainnhe/catppuccin-frappe-redux/issues/60)
+scheme. Check [jjlabs/catppuccin-frappe-redux#60](https://gitlab.com/jjlabs/catppuccin-frappe-redux/issues/60)
 
 ------------------------------------------------------------------------------
 
@@ -642,7 +642,7 @@ underline for some grammatical reasons.
 
 How to enable cursive italic keywords?~
 
-1. Install a font that supports cursive italics, for example https://aka.sainnhe.dev/fonts
+1. Install a font that supports cursive italics, for example https://aka.jjlabs.dev/fonts
 
 2. Enable italic keywords in this color scheme: `let g:catppuccin_frappe_redux_enable_italic = 1`
 
@@ -653,13 +653,13 @@ How to enable cursive italic keywords?~
 The comment color looks weird.~
 
 Some terminal emulators don't support italics, which may cause the comment
-color looks weird. See https://github.com/sainnhe/catppuccin-frappe-redux/issues/5#issuecomment-729586348
+color looks weird. See https://gitlab.com/jjlabs/catppuccin-frappe-redux/issues/5#issuecomment-729586348
 
 A temporary solution is to disable italic comments via
 |g:catppuccin_frappe_redux_disable_italic_comment|.
 
 If you are using tmux, you may also need to override default true colors of
-tmux: https://github.com/tmux/tmux/issues/1246
+tmux: https://gitlab.com/tmux/tmux/issues/1246
 
 ------------------------------------------------------------------------------
 
@@ -714,13 +714,13 @@ Note: Make sure to define the `augroup` before declare the `colorscheme`.
 
 What's your status line configuration?~
 
-See this post: https://aka.sainnhe.dev/statusline
+See this post: https://aka.jjlabs.dev/statusline
 
 ------------------------------------------------------------------------------
 
 What's the font used here?~
 
-See this post: https://aka.sainnhe.dev/fonts
+See this post: https://aka.jjlabs.dev/fonts
 
 ==============================================================================
 vim:tw=78:nosta:noet:ts=8:sts=0:ft=help:et:sw=4:fen:fdm=marker:fmr={{{,}}}:

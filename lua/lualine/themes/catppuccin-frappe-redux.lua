@@ -1,8 +1,8 @@
 -- =============================================================================
--- URL: https://github.com/sainnhe/catppuccin-frappe-redux
+-- URL: https://gitlab.com/jjlabs/catppuccin-frappe-redux
 -- Filename: lua/lualine/themes/catppuccin-frappe-redux.lua
--- Author: sainnhe
--- Email: i@sainnhe.dev
+-- Author: jjlabs
+-- Email: jj@jjlabs.dev
 -- License: MIT License
 -- =============================================================================
 

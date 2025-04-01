@@ -1,8 +1,8 @@
 " =============================================================================
-" URL: https://github.com/sainnhe/catppuccin-frappe-redux
+" URL: https://gitlab.com/jjlabs/catppuccin-frappe-redux
 " Filename: autoload/catppuccin_frappe_redux.vim
-" Author: sainnhe
-" Email: i@sainnhe.dev
+" Author: jjlabs
+" Email: jj@jjlabs.dev
 " License: MIT License
 " =============================================================================
 
@@ -83,24 +83,24 @@ function! catppuccin_frappe_redux#get_palette(background, foreground, colors_ove
   elseif a:background ==# 'medium' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg_dim':           ['#1b1b1b',   '233'],
+            \ 'bg_dim':           ['#414559',   '233'],
             \ 'bg0':              ['#303446',   '235'],
-            \ 'bg1':              ['#32302f',   '236'],
-            \ 'bg2':              ['#32302f',   '236'],
-            \ 'bg3':              ['#45403d',   '237'],
-            \ 'bg4':              ['#45403d',   '237'],
-            \ 'bg5':              ['#5a524c',   '239'],
-            \ 'bg_statusline1':   ['#32302f',   '236'],
-            \ 'bg_statusline2':   ['#3a3735',   '236'],
-            \ 'bg_statusline3':   ['#504945',   '240'],
+            \ 'bg1':              ['#292C3C',   '236'],
+            \ 'bg2':              ['#292C3C',   '236'],
+            \ 'bg3':              ['#737994',   '237'],
+            \ 'bg4':              ['#232634',   '237'],
+            \ 'bg5':              ['#414559',   '239'],
+            \ 'bg_statusline1':   ['#292C3C',   '236'],
+            \ 'bg_statusline2':   ['#414559',   '236'],
+            \ 'bg_statusline3':   ['#414559',   '240'],
             \ 'bg_diff_green':    ['#34381b',   '22'],
-            \ 'bg_visual_green':  ['#3b4439',   '22'],
+            \ 'bg_visual_green':  ['#99d1db',   '22'],
             \ 'bg_diff_red':      ['#402120',   '52'],
-            \ 'bg_visual_red':    ['#4c3432',   '52'],
+            \ 'bg_visual_red':    ['#e78284',   '52'],
             \ 'bg_diff_blue':     ['#0e363e',   '17'],
-            \ 'bg_visual_blue':   ['#374141',   '17'],
-            \ 'bg_visual_yellow': ['#4f422e',   '94'],
-            \ 'bg_current_word':  ['#3c3836',   '237']
+            \ 'bg_visual_blue':   ['#85c1dc',   '17'],
+            \ 'bg_visual_yellow': ['#e5c890',   '94'],
+            \ 'bg_current_word':  ['#626880',   '237']
             \ }
     else
       let palette1 = {
@@ -172,18 +172,18 @@ function! catppuccin_frappe_redux#get_palette(background, foreground, colors_ove
   if a:foreground ==# 'material' "{{{
     if &background ==# 'dark'
       let palette2 = {
-            \ 'fg0':              ['#d4be98',   '223'],
-            \ 'fg1':              ['#ddc7a1',   '223'],
-            \ 'red':              ['#ea6962',   '167'],
-            \ 'orange':           ['#e78a4e',   '208'],
-            \ 'yellow':           ['#d8a657',   '214'],
-            \ 'green':            ['#a9b665',   '142'],
-            \ 'aqua':             ['#89b482',   '108'],
-            \ 'blue':             ['#7daea3',   '109'],
-            \ 'purple':           ['#d3869b',   '175'],
-            \ 'bg_red':           ['#ea6962',   '167'],
-            \ 'bg_green':         ['#a9b665',   '142'],
-            \ 'bg_yellow':        ['#d8a657',   '214']
+            \ 'fg0':              ['#c6d0f5',   '223'],
+            \ 'fg1':              ['#b5bfe2',   '223'],
+            \ 'red':              ['#e78284',   '167'],
+            \ 'orange':           ['#ef9f76',   '208'],
+            \ 'yellow':           ['#e5c890',   '214'],
+            \ 'green':            ['#a6d189',   '142'],
+            \ 'aqua':             ['#85c1dc',   '108'],
+            \ 'blue':             ['#8aadf4',   '109'],
+            \ 'purple':           ['#ca9ee6',   '175'],
+            \ 'bg_red':           ['#e78284',   '167'],
+            \ 'bg_green':         ['#a6d189',   '142'],
+            \ 'bg_yellow':        ['#e5c890',   '214']
             \ }
     else
       let palette2 = {
@@ -270,7 +270,7 @@ function! catppuccin_frappe_redux#get_palette(background, foreground, colors_ove
     let palette3 = {
           \ 'grey0':            ['#7c6f64',   '243'],
           \ 'grey1':            ['#928374',   '245'],
-          \ 'grey2':            ['#a89984',   '246'],
+          \ 'grey2':            ['#babbf1',   '246'],
           \ 'none':             ['NONE',      'NONE']
           \ } "}}}
   else "{{{

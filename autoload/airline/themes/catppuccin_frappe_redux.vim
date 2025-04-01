@@ -1,8 +1,8 @@
 " =============================================================================
-" URL: https://github.com/sainnhe/catppuccin-frappe-redux
+" URL: https://gitlab.com/jjlabs/catppuccin-frappe-redux
 " Filename: autoload/airline/themes/catppuccin_frappe_redux.vim
-" Author: sainnhe
-" Email: i@sainnhe.dev
+" Author: jjlabs
+" Email: jj@jjlabs.dev
 " License: MIT License
 " =============================================================================
 

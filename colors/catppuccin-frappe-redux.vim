@@ -1,8 +1,8 @@
 " -----------------------------------------------------------------------------
 " Name:           Gruvbox Material
 " Description:    Gruvbox with Material Palette
-" Author:         sainnhe <i@sainnhe.dev>
-" Website:        https://github.com/sainnhe/catppuccin-frappe-redux
+" Author:         jjlabs <jj@jjlabs.dev>
+" Website:        https://gitlab.com/jjlabs/catppuccin-frappe-redux
 " License:        MIT
 " -----------------------------------------------------------------------------
 
@@ -1615,7 +1615,7 @@ else
   endif
 endif
 " syn_begin: vim-plug {{{
-" https://github.com/junegunn/vim-plug
+" https://gitlab.com/junegunn/vim-plug
 call catppuccin_frappe_redux#highlight('plug1', s:palette.orange, s:palette.none, 'bold')
 call catppuccin_frappe_redux#highlight('plugNumber', s:palette.yellow, s:palette.none, 'bold')
 highlight! link plug2 Green
@@ -1634,7 +1634,7 @@ highlight! link plugEdge Yellow
 highlight! link plugSha Green
 " syn_end }}}
 " syn_begin: packer {{{
-" https://github.com/wbthomason/packer.nvim
+" https://gitlab.com/wbthomason/packer.nvim
 highlight! link packerSuccess Aqua
 highlight! link packerFail Red
 highlight! link packerStatusSuccess Fg
@@ -1652,7 +1652,7 @@ highlight! link packerTimeMedium Yellow
 highlight! link packerTimeLow Green
 " syn_end }}}
 " syn_begin: coctree {{{
-" https://github.com/neoclide/coc.nvim
+" https://gitlab.com/neoclide/coc.nvim
 highlight! link CocTreeOpenClose Aqua
 highlight! link CocTreeDescription Grey
 for kind in g:catppuccin_frappe_redux_lsp_kind_color
@@ -1660,7 +1660,7 @@ for kind in g:catppuccin_frappe_redux_lsp_kind_color
 endfor
 " syn_end }}}
 " syn_begin: coc-explorer {{{
-" https://github.com/weirongxu/coc-explorer
+" https://gitlab.com/weirongxu/coc-explorer
 highlight! link CocExplorerBufferRoot Orange
 highlight! link CocExplorerBufferExpandIcon Aqua
 highlight! link CocExplorerBufferBufnr Purple
@@ -1701,7 +1701,7 @@ highlight! link CocExplorerDiagnosticWarning Yellow
 highlight! link CocExplorerFileHidden Grey
 " syn_end }}}
 " syn_begin: tagbar {{{
-" https://github.com/majutsushi/tagbar
+" https://gitlab.com/majutsushi/tagbar
 highlight! link TagbarFoldIcon Green
 highlight! link TagbarSignature Green
 highlight! link TagbarKind Red
@@ -1711,7 +1711,7 @@ highlight! link TagbarVisibilityPrivate Red
 highlight! link TagbarVisibilityPublic Blue
 " syn_end }}}
 " syn_begin: vista/vista_kind/vista_markdown {{{
-" https://github.com/liuchengxu/vista.vim
+" https://gitlab.com/liuchengxu/vista.vim
 highlight! link VistaBracket Grey
 highlight! link VistaChildrenNr Orange
 highlight! link VistaScope Red
@@ -1727,11 +1727,11 @@ highlight! link VistaProtected Yellow
 highlight! link VistaPrivate Red
 " syn_end }}}
 " syn_begin: Outline {{{
-" https://github.com/simrat39/symbols-outline.nvim
+" https://gitlab.com/simrat39/symbols-outline.nvim
 highlight! link FocusedSymbol NormalFloat
 " syn_end }}}
 " syn_begin: aerial {{{
-" https://github.com/stevearc/aerial.nvim
+" https://gitlab.com/stevearc/aerial.nvim
 highlight! link AerialLine CursorLine
 highlight! link AerialGuide LineNr
 for kind in g:catppuccin_frappe_redux_lsp_kind_color
@@ -1739,7 +1739,7 @@ for kind in g:catppuccin_frappe_redux_lsp_kind_color
 endfor
 " syn_end }}}
 " syn_begin: nerdtree {{{
-" https://github.com/preservim/nerdtree
+" https://gitlab.com/preservim/nerdtree
 highlight! link NERDTreeDir Green
 highlight! link NERDTreeDirSlash Aqua
 highlight! link NERDTreeOpenable Orange
@@ -1756,12 +1756,12 @@ highlight! link NERDTreeLinkFile Grey
 highlight! link NERDTreeLinkTarget Green
 " syn_end }}}
 " syn_begin: dirvish {{{
-" https://github.com/justinmk/vim-dirvish
+" https://gitlab.com/justinmk/vim-dirvish
 highlight! link DirvishPathTail Aqua
 highlight! link DirvishArg Yellow
 " syn_end }}}
 " syn_begin: NvimTree {{{
-" https://github.com/kyazdani42/nvim-tree.lua
+" https://gitlab.com/kyazdani42/nvim-tree.lua
 if !s:configuration.transparent_background
   call catppuccin_frappe_redux#highlight('NvimTreeNormal', s:palette.fg0, s:palette.bg_dim)
   call catppuccin_frappe_redux#highlight('NvimTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
@@ -1792,7 +1792,7 @@ highlight! link NvimTreeLspDiagnosticsInformation BlueSign
 highlight! link NvimTreeLspDiagnosticsHint GreenSign
 " syn_end }}}
 " syn_begin: fern {{{
-" https://github.com/lambdalisue/fern.vim
+" https://gitlab.com/lambdalisue/fern.vim
 highlight! link FernMarkedLine Purple
 highlight! link FernMarkedText Purple
 highlight! link FernRootSymbol FernRootText
@@ -1805,7 +1805,7 @@ highlight! link FernWindowSelectIndicator TabLineSel
 highlight! link FernWindowSelectStatusLine TabLine
 " syn_end }}}
 " syn_begin: neo-tree {{{
-" https://github.com/nvim-neo-tree/neo-tree.nvim
+" https://gitlab.com/nvim-neo-tree/neo-tree.nvim
 if !s:configuration.transparent_background
   call catppuccin_frappe_redux#highlight('NeoTreeNormal', s:palette.fg0, s:palette.bg_dim)
   call catppuccin_frappe_redux#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
@@ -1827,7 +1827,7 @@ highlight! link NeoTreeSignColumn NeoTreeNormal
 highlight! link NeoTreeRootName Title
 " syn_end }}}
 " syn_begin: octo {{{
-" https://github.com/pwntester/octo.nvim
+" https://gitlab.com/pwntester/octo.nvim
 call catppuccin_frappe_redux#highlight('OctoViewer', s:palette.bg0, s:palette.blue)
 call catppuccin_frappe_redux#highlight('OctoGreenFloat', s:palette.green, s:palette.bg3)
 call catppuccin_frappe_redux#highlight('OctoRedFloat', s:palette.red, s:palette.bg3)
@@ -1868,8 +1868,8 @@ highlight! link netrwCmdSep Grey
 highlight! link netrwVersion Orange
 " syn_end }}}
 " syn_begin: startify/quickmenu {{{
-" https://github.com/mhinz/vim-startify
-" https://github.com/skywind3000/quickmenu.vim
+" https://gitlab.com/mhinz/vim-startify
+" https://gitlab.com/skywind3000/quickmenu.vim
 highlight! link StartifyBracket Grey
 highlight! link StartifyFile Fg
 highlight! link StartifyNumber Red
@@ -1881,7 +1881,7 @@ highlight! link StartifySpecial Grey
 highlight! link StartifyFooter Grey
 " syn_end }}}
 " syn_begin: quickmenu {{{
-" https://github.com/skywind3000/quickmenu.vim
+" https://gitlab.com/skywind3000/quickmenu.vim
 highlight! link QuickmenuOption Green
 highlight! link QuickmenuNumber Red
 highlight! link QuickmenuBracket Grey
@@ -1890,7 +1890,7 @@ highlight! link QuickmenuSpecial Purple
 highlight! link QuickmenuHeader Orange
 " syn_end }}}
 " syn_begin: undotree {{{
-" https://github.com/mbbill/undotree
+" https://gitlab.com/mbbill/undotree
 call catppuccin_frappe_redux#highlight('UndotreeSavedBig', s:palette.purple, s:palette.none, 'bold')
 highlight! link UndotreeNode Orange
 highlight! link UndotreeNodeCurrent Red
@@ -1903,7 +1903,7 @@ highlight! link UndotreeCurrent Aqua
 highlight! link UndotreeSavedSmall Purple
 " syn_end }}}
 " syn_begin: NeogitStatus/NeogitCommitView {{{
-" https://github.com/TimUntersberger/neogit
+" https://gitlab.com/TimUntersberger/neogit
 highlight! link NeogitNotificationInfo Blue
 highlight! link NeogitNotificationWarning Yellow
 highlight! link NeogitNotificationError Red
@@ -1918,7 +1918,7 @@ highlight! link NeogitCommitViewHeader diffIndexLine
 highlight! link NeogitFilePath diffFile
 " syn_end }}}
 " syn_begin: dashboard {{{
-" https://github.com/glepnir/dashboard-nvim
+" https://gitlab.com/glepnir/dashboard-nvim
 highlight! link DashboardHeader Yellow
 highlight! link DashboardCenter Green
 highlight! link DashboardShortcut Red
@@ -1954,7 +1954,7 @@ highlight! link markdownIdDeclaration markdownLinkText
 highlight! link markdownBoldDelimiter Grey
 highlight! link markdownId Yellow
 " }}}
-" vim-markdown: https://github.com/gabrielelana/vim-markdown {{{
+" vim-markdown: https://gitlab.com/gabrielelana/vim-markdown {{{
 call catppuccin_frappe_redux#highlight('mkdURL', s:palette.blue, s:palette.none, 'underline')
 call catppuccin_frappe_redux#highlight('mkdInlineURL', s:palette.purple, s:palette.none, 'underline')
 call catppuccin_frappe_redux#highlight('mkdItalic', s:palette.grey1, s:palette.none, 'italic')
@@ -2010,7 +2010,7 @@ highlight! link VimwikiPreDelim Green
 highlight! link VimwikiNoExistsLink Red
 " syn_end }}}
 " syn_begin: rst {{{
-" builtin: https://github.com/marshallward/vim-restructuredtext {{{
+" builtin: https://gitlab.com/marshallward/vim-restructuredtext {{{
 call catppuccin_frappe_redux#highlight('rstStandaloneHyperlink', s:palette.purple, s:palette.none, 'underline')
 highlight! link rstSubstitutionReference Blue
 highlight! link rstInterpretedTextOrHyperlinkReference Aqua
@@ -2030,7 +2030,7 @@ highlight! link texDocType Purple
 highlight! link texDocTypeArgs Orange
 highlight! link texDelimiter Conceal
 " }}}
-" vimtex: https://github.com/lervag/vimtex {{{
+" vimtex: https://gitlab.com/lervag/vimtex {{{
 highlight! link texCmd Green
 highlight! link texCmdClass Purple
 highlight! link texCmdTitle Purple
@@ -2080,7 +2080,7 @@ endif
 " }}}
 " syn_end }}}
 " syn_begin: xml {{{
-" builtin: https://github.com/chrisbra/vim-xml-ftplugin {{{
+" builtin: https://gitlab.com/chrisbra/vim-xml-ftplugin {{{
 highlight! link xmlTag Green
 highlight! link xmlEndTag Blue
 highlight! link xmlTagName OrangeItalic
@@ -2095,7 +2095,7 @@ highlight! link xmlCdataCdata Purple
 " }}}
 " syn_end }}}
 " syn_begin: css/scss/sass/less {{{
-" builtin: https://github.com/JulesWang/css.vim {{{
+" builtin: https://gitlab.com/JulesWang/css.vim {{{
 highlight! link cssAttrComma Fg
 highlight! link cssBraces Fg
 highlight! link cssTagName PurpleItalic
@@ -2125,7 +2125,7 @@ highlight! link cssNoise Grey
 " }}}
 " syn_end }}}
 " syn_begin: scss {{{
-" scss-syntax: https://github.com/cakebaker/scss-syntax.vim {{{
+" scss-syntax: https://gitlab.com/cakebaker/scss-syntax.vim {{{
 highlight! link scssMixinName Yellow
 highlight! link scssSelectorChar Red
 highlight! link scssSelectorName RedItalic
@@ -2156,7 +2156,7 @@ highlight! link sassFunctionName GreenBold
 " }}}
 " syn_end }}}
 " syn_begin: less {{{
-" vim-less: https://github.com/groenewege/vim-less {{{
+" vim-less: https://gitlab.com/groenewege/vim-less {{{
 highlight! link lessMixinChar Grey
 highlight! link lessClass RedItalic
 highlight! link lessVariable Blue
@@ -2176,7 +2176,7 @@ highlight! link javaScriptFunction RedItalic
 highlight! link javaScriptOperator Orange
 highlight! link javaScriptMember Aqua
 " }}}
-" vim-javascript: https://github.com/pangloss/vim-javascript {{{
+" vim-javascript: https://gitlab.com/pangloss/vim-javascript {{{
 highlight! link jsThis Purple
 highlight! link jsUndefined Aqua
 highlight! link jsNull Aqua
@@ -2217,7 +2217,7 @@ if has('nvim-0.9')
   highlight! link @lsp.typemod.variable.defaultLibrary.javascriptreact TSConstBuiltin
 endif
 " }}}
-" yajs: https://github.com/othree/yajs.vim {{{
+" yajs: https://gitlab.com/othree/yajs.vim {{{
 highlight! link javascriptEndColons Fg
 highlight! link javascriptOpSymbol Orange
 highlight! link javascriptOpSymbols Orange
@@ -2349,7 +2349,7 @@ highlight! link javascriptDataViewProp Aqua
 highlight! link javascriptBroadcastProp Aqua
 highlight! link javascriptMathStaticProp Aqua
 " }}}
-" vim-jsx-pretty: https://github.com/maxmellon/vim-jsx-pretty {{{
+" vim-jsx-pretty: https://gitlab.com/maxmellon/vim-jsx-pretty {{{
 highlight! link jsxTagName OrangeItalic
 highlight! link jsxOpenPunct Green
 highlight! link jsxClosePunct Blue
@@ -2358,7 +2358,7 @@ highlight! link jsxAttrib Aqua
 " }}}
 " syn_end }}}
 " syn_begin: typescript/typescriptreact {{{
-" vim-typescript: https://github.com/leafgarland/typescript-vim {{{
+" vim-typescript: https://gitlab.com/leafgarland/typescript-vim {{{
 highlight! link typescriptSource PurpleItalic
 highlight! link typescriptMessage Yellow
 highlight! link typescriptGlobalObjects Aqua
@@ -2367,7 +2367,7 @@ highlight! link typescriptInterpolationDelimiter Yellow
 highlight! link typescriptBraces Fg
 highlight! link typescriptParens Fg
 " }}}
-" yats: https:github.com/HerringtonDarkholme/yats.vim {{{
+" yats: https:gitlab.com/HerringtonDarkholme/yats.vim {{{
 highlight! link typescriptMethodAccessor OrangeItalic
 highlight! link typescriptVariable Orange
 highlight! link typescriptVariableDeclaration Blue
@@ -2524,7 +2524,7 @@ endif
 " }}}
 " syn_end }}}
 " syn_begin: dart {{{
-" dart-lang: https://github.com/dart-lang/dart-vim-plugin {{{
+" dart-lang: https://gitlab.com/dart-lang/dart-vim-plugin {{{
 highlight! link dartCoreClasses Aqua
 highlight! link dartTypeName Aqua
 highlight! link dartInterpolation Blue
@@ -2535,7 +2535,7 @@ highlight! link dartMetadata Blue
 " }}}
 " syn_end }}}
 " syn_begin: coffee {{{
-" vim-coffee-script: https://github.com/kchmck/vim-coffee-script {{{
+" vim-coffee-script: https://gitlab.com/kchmck/vim-coffee-script {{{
 highlight! link coffeeExtendedOp Orange
 highlight! link coffeeSpecialOp Fg
 highlight! link coffeeDotAccess Grey
@@ -2553,7 +2553,7 @@ highlight! link coffeeObjAssign Aqua
 " }}}
 " syn_end }}}
 " syn_begin: purescript {{{
-" purescript-vim: https://github.com/purescript-contrib/purescript-vim {{{
+" purescript-vim: https://gitlab.com/purescript-contrib/purescript-vim {{{
 highlight! link purescriptModuleKeyword PurpleItalic
 highlight! link purescriptModule Aqua
 highlight! link purescriptModuleParams Blue
@@ -2566,7 +2566,7 @@ highlight! link purescriptType Aqua
 " }}}
 " syn_end }}}
 " syn_begin: c/cpp/objc/objcpp {{{
-" vim-cpp-enhanced-highlight: https://github.com/octol/vim-cpp-enhanced-highlight {{{
+" vim-cpp-enhanced-highlight: https://gitlab.com/octol/vim-cpp-enhanced-highlight {{{
 highlight! link cppSTLnamespace Purple
 highlight! link cppSTLtype Yellow
 highlight! link cppAccess PurpleItalic
@@ -2575,10 +2575,10 @@ highlight! link cppSTLios Aqua
 highlight! link cppSTLiterator PurpleItalic
 highlight! link cppSTLexception Purple
 " }}}
-" vim-cpp-modern: https://github.com/bfrg/vim-cpp-modern {{{
+" vim-cpp-modern: https://gitlab.com/bfrg/vim-cpp-modern {{{
 highlight! link cppSTLVariable Aqua
 " }}}
-" chromatica: https://github.com/arakashic/chromatica.nvim {{{
+" chromatica: https://gitlab.com/arakashic/chromatica.nvim {{{
 highlight! link Member TSVariable
 highlight! link Variable TSVariable
 highlight! link Namespace TSNamespace
@@ -2590,7 +2590,7 @@ highlight! link AccessQual TSOperator
 highlight! link Linkage TSOperator
 highlight! link AutoType TSType
 " }}}
-" vim-lsp-cxx-highlight https://github.com/jackguo380/vim-lsp-cxx-highlight {{{
+" vim-lsp-cxx-highlight https://gitlab.com/jackguo380/vim-lsp-cxx-highlight {{{
 highlight! link LspCxxHlSkippedRegion Grey
 highlight! link LspCxxHlSkippedRegionBeginEnd TSKeyword
 highlight! link LspCxxHlGroupEnumConstant BlueItalic
@@ -2610,7 +2610,7 @@ highlight! link objcHiddenArgument Aqua
 " }}}
 " syn_end }}}
 " syn_begin: cs {{{
-" builtin: https://github.com/nickspoons/vim-cs {{{
+" builtin: https://gitlab.com/nickspoons/vim-cs {{{
 highlight! link csUnspecifiedStatement PurpleItalic
 highlight! link csStorage RedItalic
 highlight! link csClass RedItalic
@@ -2627,7 +2627,7 @@ highlight! link pythonBuiltin Yellow
 highlight! link pythonExceptions Purple
 highlight! link pythonDecoratorName Blue
 " }}}
-" python-syntax: https://github.com/vim-python/python-syntax {{{
+" python-syntax: https://gitlab.com/vim-python/python-syntax {{{
 highlight! link pythonExClass Purple
 highlight! link pythonBuiltinType Yellow
 highlight! link pythonBuiltinObj Blue
@@ -2646,7 +2646,7 @@ highlight! link pythonException RedItalic
 highlight! link pythonNone Aqua
 highlight! link pythonDot Grey
 " }}}
-" semshi: https://github.com/numirias/semshi {{{
+" semshi: https://gitlab.com/numirias/semshi {{{
 call catppuccin_frappe_redux#highlight('semshiUnresolved', s:palette.yellow, s:palette.none, 'undercurl')
 highlight! link semshiImported TSInclude
 highlight! link semshiParameter TSParameter
@@ -2669,7 +2669,7 @@ highlight! link luaFunction Aqua
 highlight! link luaTable Fg
 highlight! link luaIn RedItalic
 " }}}
-" vim-lua: https://github.com/tbastos/vim-lua {{{
+" vim-lua: https://gitlab.com/tbastos/vim-lua {{{
 highlight! link luaFuncCall GreenBold
 highlight! link luaLocal Orange
 highlight! link luaSpecialValue GreenBold
@@ -2690,7 +2690,7 @@ endif
 " }}}
 " syn_end }}}
 " syn_begin: moon {{{
-" moonscript-vim: https://github.com/leafo/moonscript-vim {{{
+" moonscript-vim: https://gitlab.com/leafo/moonscript-vim {{{
 highlight! link moonInterpDelim Yellow
 highlight! link moonInterp Blue
 highlight! link moonFunction Green
@@ -2717,7 +2717,7 @@ highlight! link javaParen5 Fg
 " }}}
 " syn_end }}}
 " syn_begin: kotlin {{{
-" kotlin-vim: https://github.com/udalov/kotlin-vim {{{
+" kotlin-vim: https://gitlab.com/udalov/kotlin-vim {{{
 highlight! link ktSimpleInterpolation Yellow
 highlight! link ktComplexInterpolation Yellow
 highlight! link ktComplexInterpolationBrace Yellow
@@ -2726,7 +2726,7 @@ highlight! link ktKeyword Aqua
 " }}}
 " syn_end }}}
 " syn_begin: scala {{{
-" builtin: https://github.com/derekwyatt/vim-scala {{{
+" builtin: https://gitlab.com/derekwyatt/vim-scala {{{
 highlight! link scalaNameDefinition Aqua
 highlight! link scalaInterpolationBoundary Yellow
 highlight! link scalaInterpolation Blue
@@ -2736,7 +2736,7 @@ highlight! link scalaKeywordModifier Orange
 " }}}
 " syn_end }}}
 " syn_begin: go {{{
-" builtin: https://github.com/fatih/vim-go {{{
+" builtin: https://gitlab.com/fatih/vim-go {{{
 highlight! link goPackage Define
 highlight! link goImport Include
 highlight! link goVar OrangeItalic
@@ -2770,7 +2770,7 @@ endif
 " }}}
 " syn_end }}}
 " syn_begin: rust {{{
-" builtin: https://github.com/rust-lang/rust.vim {{{
+" builtin: https://gitlab.com/rust-lang/rust.vim {{{
 highlight! link rustStructure Orange
 highlight! link rustIdentifier Purple
 highlight! link rustModPath Orange
@@ -2784,13 +2784,13 @@ highlight! link rustAssert Aqua
 highlight! link rustPanic Aqua
 highlight! link rustPubScopeCrate PurpleItalic
 " }}}
-" coc-rust-analyzer: https://github.com/fannheyward/coc-rust-analyzer {{{
+" coc-rust-analyzer: https://gitlab.com/fannheyward/coc-rust-analyzer {{{
 highlight! link CocRustChainingHint Grey
 highlight! link CocRustTypeHint Grey
 " }}}
 " syn_end }}}
 " syn_begin: swift {{{
-" swift.vim: https://github.com/keith/swift.vim {{{
+" swift.vim: https://gitlab.com/keith/swift.vim {{{
 highlight! link swiftInterpolatedWrapper Yellow
 highlight! link swiftInterpolatedString Blue
 highlight! link swiftProperty Aqua
@@ -2809,7 +2809,7 @@ highlight! link phpComparison Orange
 highlight! link phpMethodsVar Aqua
 highlight! link phpMemberSelector Green
 " }}}
-" php.vim: https://github.com/StanAngeloff/php.vim {{{
+" php.vim: https://gitlab.com/StanAngeloff/php.vim {{{
 highlight! link phpParent Fg
 highlight! link phpNowDoc Green
 highlight! link phpFunction GreenBold
@@ -2819,7 +2819,7 @@ highlight! link phpSuperglobals Purple
 " }}}
 " syn_end }}}
 " syn_begin: ruby {{{
-" builtin: https://github.com/vim-ruby/vim-ruby {{{
+" builtin: https://gitlab.com/vim-ruby/vim-ruby {{{
 highlight! link rubyKeywordAsMethod GreenBold
 highlight! link rubyInterpolation Yellow
 highlight! link rubyInterpolationDelimiter Yellow
@@ -2833,7 +2833,7 @@ highlight! link rubyMacro RedItalic
 " }}}
 " syn_end }}}
 " syn_begin: haskell {{{
-" haskell-vim: https://github.com/neovimhaskell/haskell-vim {{{
+" haskell-vim: https://gitlab.com/neovimhaskell/haskell-vim {{{
 highlight! link haskellBrackets Blue
 highlight! link haskellIdentifier Yellow
 highlight! link haskellAssocType Aqua
@@ -2846,7 +2846,7 @@ highlight! link haskellForeignKeywords PurpleItalic
 " }}}
 " syn_end }}}
 " syn_begin: perl/pod {{{
-" builtin: https://github.com/vim-perl/vim-perl {{{
+" builtin: https://gitlab.com/vim-perl/vim-perl {{{
 highlight! link perlStatementPackage PurpleItalic
 highlight! link perlStatementInclude PurpleItalic
 highlight! link perlStatementStorage Orange
@@ -2860,7 +2860,7 @@ highlight! link podCmdText Yellow
 " }}}
 " syn_end }}}
 " syn_begin: ocaml {{{
-" builtin: https://github.com/rgrinberg/vim-ocaml {{{
+" builtin: https://gitlab.com/rgrinberg/vim-ocaml {{{
 highlight! link ocamlArrow Orange
 highlight! link ocamlEqual Orange
 highlight! link ocamlOperator Orange
@@ -2882,7 +2882,7 @@ highlight! link ocamlModParam1 Blue
 " }}}
 " syn_end }}}
 " syn_begin: erlang {{{
-" builtin: https://github.com/vim-erlang/vim-erlang-runtime {{{
+" builtin: https://gitlab.com/vim-erlang/vim-erlang-runtime {{{
 highlight! link erlangAtom Aqua
 highlight! link erlangLocalFuncRef GreenBold
 highlight! link erlangLocalFuncCall GreenBold
@@ -2893,7 +2893,7 @@ highlight! link erlangPipe Orange
 " }}}
 " syn_end }}}
 " syn_begin: elixir {{{
-" vim-elixir: https://github.com/elixir-editors/vim-elixir {{{
+" vim-elixir: https://gitlab.com/elixir-editors/vim-elixir {{{
 highlight! link elixirStringDelimiter Green
 highlight! link elixirKeyword Orange
 highlight! link elixirInterpolation Yellow
@@ -2928,7 +2928,7 @@ highlight! link lispFunc OrangeItalic
 " }}}
 " syn_end }}}
 " syn_begin: clojure {{{
-" builtin: https://github.com/guns/vim-clojure-static {{{
+" builtin: https://gitlab.com/guns/vim-clojure-static {{{
 highlight! link clojureMacro PurpleItalic
 highlight! link clojureFunc AquaBold
 highlight! link clojureConstant Yellow
@@ -2955,7 +2955,7 @@ highlight! link matlabLogicalOperator Orange
 " }}}
 " syn_end }}}
 " syn_begin: octave {{{
-" vim-octave: https://github.com/McSinyx/vim-octave{{{
+" vim-octave: https://gitlab.com/McSinyx/vim-octave{{{
 highlight! link octaveDelimiter Fg
 highlight! link octaveSemicolon Grey
 highlight! link octaveOperator Orange
@@ -2983,7 +2983,7 @@ highlight! link shFunctionKey RedItalic
 " }}}
 " syn_end }}}
 " syn_begin: zsh {{{
-" builtin: https://github.com/chrisbra/vim-zsh {{{
+" builtin: https://gitlab.com/chrisbra/vim-zsh {{{
 highlight! link zshOptStart PurpleItalic
 highlight! link zshOption Blue
 highlight! link zshSubst Yellow
@@ -2994,14 +2994,14 @@ highlight! link zshVariableDef Blue
 " }}}
 " syn_end }}}
 " syn_begin: fish {{{
-" vim-fish: https://github.com/georgewitteman/vim-fish {{{
+" vim-fish: https://gitlab.com/georgewitteman/vim-fish {{{
 highlight! link fishStatement Orange
 highlight! link fishLabel RedItalic
 highlight! link fishCommandSub Yellow
 " }}}
 " syn_end }}}
 " syn_begin: ps1 {{{
-" vim-ps1: https://github.com/PProvost/vim-ps1 {{{
+" vim-ps1: https://gitlab.com/PProvost/vim-ps1 {{{
 highlight! link ps1FunctionInvocation AquaBold
 highlight! link ps1FunctionDeclaration AquaBold
 highlight! link ps1InterpolationDelimiter Yellow
@@ -3194,7 +3194,7 @@ highlight! link helpSpecial Blue
 highlight! link helpSectionDelim Grey
 " syn_end }}}
 " syn_begin: neotest-summary {{{
-" https://github.com/nvim-neotest/neotest
+" https://gitlab.com/nvim-neotest/neotest
 if has('nvim')
 highlight! link NeotestNamespace Purple
 highlight! link NeotestFile Blue
@@ -3207,7 +3207,7 @@ highlight! link NeotestTarget Red
 endif
 " syn_end }}}
 " syn_begin: mason {{{
-" https://github.com/williamboman/mason.nvim
+" https://gitlab.com/williamboman/mason.nvim
 call catppuccin_frappe_redux#highlight('MasonHeader', s:palette.bg0, s:palette.red, 'bold')
 call catppuccin_frappe_redux#highlight('MasonHeaderSecondary', s:palette.bg0, s:palette.orange, 'bold')
 highlight! link MasonHighlight Green

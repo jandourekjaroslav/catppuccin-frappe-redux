@@ -1,4 +1,4 @@
-#Catppuccin Frappe Redux
+# Catppuccin Frappe Redux
 
 Catppuccin frappe theme for vim
 

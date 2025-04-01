@@ -4,7 +4,7 @@ Catppuccin frappe theme for vim
 
 ## Introduction
 
-Shamelessly pilfered from [jjlabs/gruvbox-material](https://gitlab.com/jjlabs/gruvbox-material) and recolored as [Catppuccin-Frappe](https://gitlab.com/catppuccin/catppuccin)
+Shamelessly pilfered from [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) and recolored as [Catppuccin-Frappe](https://github.com/catppuccin/catppuccin)
 
 ## License
 
